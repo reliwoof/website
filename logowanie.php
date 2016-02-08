@@ -47,11 +47,10 @@ echo "Error: ".$polaczenie->connect_errno;
 else
 	
 {
-echo "<font color='white'>Witaj $imie. Połączyłeś/aś się z bazą danych $db_name. </font>";
+echo "<font color='white'>Witaj $imie. Połączyłeś/aś się z bazą danych $db_name. <a href='./select.php'> Wybierz dane z bazy</a></font>";
 	
 $polaczenie->close();
 }
-
 
 ?>
 </body>
