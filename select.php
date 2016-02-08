@@ -25,7 +25,7 @@ padding:20px;
 </div>
 <br/>
 <?php
-require_once (logowanie.php);
+require_once "logowanie.php";
 $sql="SELECT * FROM uzytkownicy where Imie=`Ewa`;";
 if ($wynik=@$polaczenie->query($sql))
 {
