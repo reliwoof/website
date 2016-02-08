@@ -21,15 +21,17 @@ padding:20px;
 </head>
 <body>
 <div id="baner">
-<p>Strona główna</p>
+<p><hr>Strona główna</hr></p>
 </div>
 <br/>
 <?php
+
 $imie=$_POST['imie'];
 $host = "localhost";
 $db_user = "root";
 $db_password = "";
 $db_name = "szkola";
+
 $polaczenie = @new mysqli($host, $db_user, $db_password, $db_name);
 
 
